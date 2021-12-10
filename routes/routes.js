@@ -10,6 +10,8 @@ const chess = require('../controllers/chess')
 const basketball = require('../controllers/basketball')
 const throwball = require('../controllers/throwball')
 
+
+
 router.get('/' , (req,res) => {
     res.render('layout')
 })
