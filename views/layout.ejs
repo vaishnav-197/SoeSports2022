@@ -52,34 +52,42 @@
 <div class="event"><h2>Football</h2></div>
 
     <div class="serv-content">
-                
-        <div class="card">
+
+      <% if (typeof schedule != 'undefined') { %>
+
+        <% schedule.fixture.forEach(function(data){ %>
+
+          <div class="card">
             <div class="box">
-                <div class="match">Match no: 1</div>
+                <div class="match">Match no: <%=data.matchNo %></div>
                 <div class="row">
                     <div class="column">
-                <div class="text">Civil</div>
-                <div class="text">0</div>
-
-
+                <div class="text"><%=data.t1 %></div>
+                <div class="text"><%=data.score1 %></div>
+  
+  
             </div>
             <div class="VS">
                 <img src="img/VS.png" alt="">
             </div>
-
-
+  
+  
             <div class="column">
-                <div class="text">Civil</div>
-                <div class="text">0</div>
-
-
+                <div class="text"><%=data.t2 %></div>
+                <div class="text"><%=data.score2 %></div>
+  
+  
             </div>
             </div>
-            <div class="Pool">Pool A</div>
-            <div class="match">12:40 pm</div>
-
+            <div class="Pool"><%=data.pool %></div>
+            <div class="match"><%=data.time %></div>
+  
             </div>
-        </div>
+          </div>
+        <% }) %>
+        
+      <% } %>
+        
 
     
         <!-- <div class="card">
@@ -90,41 +98,10 @@
                     their request.</p>
             </div>
         </div> -->
-        <div class="card">
-            <div class="box">
-                <div class="text">Live Image Caption Generator</div>
-                <p>A Flutter app which generates corresponding captions for the selected
-                    image.</p>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="box">
-                <div class="text">Snake Game</div>
-                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="box">
-                <div class="text">Snake Game - ReactJS</div>
-                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="box">
-                <div class="text">Snake Game - ReactJS</div>
-                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="box">
-                <div class="text">Snake Game - ReactJS</div>
-                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
-            </div>
-        </div>
+        
+        
+        
+        
        </div>
 
   </section>
