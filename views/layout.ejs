@@ -9,44 +9,70 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-<body>
+<body id="body-pd">
 
     <!-- SIDEBAR -->
-  <div class="sidebar close">
-    <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">SOE Sports</span>
+    <header class="header" id="header">
+        <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
+
+        <div class="header__img">
+            <img src="assets/img/perfil.jpg" alt="">
+        </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__logo">
+                    <i class='bx bx-layer nav__logo-icon'></i>
+                    <span class="nav__logo-name">Bedimcode</span>
+                </a>
+
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                    <i class='bx bx-grid-alt nav__icon' ></i>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-user nav__icon' ></i>
+                        <span class="nav__name">Users</span>
+                    </a>
+                    
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-message-square-detail nav__icon' ></i>
+                        <span class="nav__name">Messages</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-bookmark nav__icon' ></i>
+                        <span class="nav__name">Favorites</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-folder nav__icon' ></i>
+                        <span class="nav__name">Data</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-bar-chart-alt-2 nav__icon' ></i>
+                        <span class="nav__name">Analytics</span>
+                    </a>
+                </div>
+            </div>
+
+            <a href="#" class="nav__link">
+                <i class='bx bx-log-out nav__icon' ></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
     </div>
-    <ul class="nav-links">
-      <li>
-        <a href="#">
-          <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
-        </a>
-        
-      </li>
-     
-    
-   
-     
- 
-    
-      
-      <li>
-        <a href="#">
-          <i class='bx bx-cog' ></i>
-          <span class="link_name">Setting</span>
-        </a>
-        
-      </li>
-      <li>
-   
-  </li>
-</ul>
-  </div>
+  
   <section class="home-section">
     <div class="home-content">
-      <i class='bx bx-menu' ></i>
+      <!-- <i class='bx bx-menu' ></i> -->
       <span class="text">SOE Sports 2021</span>
     </div>
 <div class="event"><h2>Football</h2></div>
@@ -111,19 +137,39 @@
   
  
   <script>
-  let arrow = document.querySelectorAll(".arrow");
-  for (var i = 0; i < arrow.length; i++) {
-    arrow[i].addEventListener("click", (e)=>{
-   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
-   arrowParent.classList.toggle("showMenu");
-    });
-  }
-  let sidebar = document.querySelector(".sidebar");
-  let sidebarBtn = document.querySelector(".bx-menu");
-  console.log(sidebarBtn);
-  sidebarBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("close");
-  });
+    const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+        const toggle = document.getElementById(toggleId),
+        nav = document.getElementById(navId),
+        bodypd = document.getElementById(bodyId),
+        headerpd = document.getElementById(headerId)
+    
+        // Validate that all variables exist
+        if(toggle && nav && bodypd && headerpd){
+            toggle.addEventListener('click', ()=>{
+                // show navbar
+                nav.classList.toggle('show')
+                // change icon
+                toggle.classList.toggle('bx-x')
+                // add padding to body
+                bodypd.classList.toggle('body-pd')
+                // add padding to header
+                headerpd.classList.toggle('body-pd')
+            })
+        }
+    }
+    
+    showNavbar('header-toggle','nav-bar','body-pd','header')
+    
+    /*===== LINK ACTIVE  =====*/ 
+    const linkColor = document.querySelectorAll('.nav__link')
+    
+    function colorLink(){
+        if(linkColor){
+            linkColor.forEach(l=> l.classList.remove('active'))
+            this.classList.add('active')
+        }
+    }
+    linkColor.forEach(l=> l.addEventListener('click', colorLink))
   </script>
 </body>
 </html>
