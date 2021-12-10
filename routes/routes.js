@@ -1,7 +1,7 @@
 const router = require('express').Router()
+const footballActions = require('../controllers/football')
 
-
-router.get('/', (req, res) => res.render('welcome'));
+router.get('/',footballActions.table)
 
 
 module.exports = router
