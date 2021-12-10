@@ -1,13 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+   
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <h1>soe sports</h1>
+
+    <!-- SIDEBAR -->
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">SOE Sports</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        
+      </li>
+     
     
+   
+     
+ 
+    
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        
+      </li>
+      <li>
+   
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">SOE Sports 2021</span>
+    </div>
+<div class="event"><h2>Football</h2></div>
+
+    <div class="serv-content">
+                
+        <div class="card">
+            <div class="box">
+                <div class="match">Match no: 1</div>
+                <div class="row">
+                    <div class="column">
+                <div class="text">Civil</div>
+                <div class="text">0</div>
+
+
+            </div>
+            <div class="VS">
+                <img src="img/VS.png" alt="">
+            </div>
+
+
+            <div class="column">
+                <div class="text">Civil</div>
+                <div class="text">0</div>
+
+
+            </div>
+            </div>
+            <div class="Pool">Pool A</div>
+            <div class="match">12:40 pm</div>
+
+            </div>
+        </div>
+
+    
+        <!-- <div class="card">
+            <div class="box">
+                <div class="text">Medicare, Healing Together</div>
+                <p>A flutter app for effectiely distribuiting medicines and vaccines from the
+                    manufacturing country to the the country that require the medicine as per
+                    their request.</p>
+            </div>
+        </div> -->
+        <div class="card">
+            <div class="box">
+                <div class="text">Live Image Caption Generator</div>
+                <p>A Flutter app which generates corresponding captions for the selected
+                    image.</p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="box">
+                <div class="text">Snake Game</div>
+                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="box">
+                <div class="text">Snake Game - ReactJS</div>
+                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="box">
+                <div class="text">Snake Game - ReactJS</div>
+                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="box">
+                <div class="text">Snake Game - ReactJS</div>
+                <p>Just a rebuild of the classic nokia snake game developed using reactJs and deployed on netlify. Do check it out!</p>
+            </div>
+        </div>
+       </div>
+
+  </section>
+
+  <!-- SIDEBAR ENDS HERE -->
+  
+  
+ 
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
 </body>
 </html>
