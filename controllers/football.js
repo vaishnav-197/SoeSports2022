@@ -7,7 +7,7 @@ const footballActions = {
     table: async function (req,res){
         const table = football
         const schedule = bschedule
-        res.render("layout",{
+        res.render("football",{
             table:table,
             schedule:schedule
 
