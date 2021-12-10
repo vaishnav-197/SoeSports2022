@@ -33,6 +33,7 @@ body{
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
@@ -237,11 +238,12 @@ a{
   grid-template-columns: max-content max-content;
   align-items: center;
   column-gap: 1rem;
-  padding: .5rem 0 .5rem 1.5rem;
+  padding: .4rem 0 .5rem 1.5rem;
 }
 
 .nav__logo{
   margin-bottom: 2rem;
+  padding-right: 40px !important;
 }
 
 .nav__logo-icon{
@@ -328,4 +330,17 @@ a{
   .body-pd{
     padding-left: calc(var(--nav-width) + 188px);
   }
+}
+
+.logo-image{
+  width:3em;
+  height: 3em;
+  padding-right: 20px;
+  /* padding-left: 20px; */
+}
+.logo-title{
+  width: 4em;
+  height: 5em;
+  padding-bottom: 10px;
+  margin-right: 10px;
 }
