@@ -1,7 +1,7 @@
 {
     "fixture":[{
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"CSE",
+        "t2":"EESE",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -9,8 +9,8 @@
         "time":"TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"EESE",
+        "t2":"EC",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -18,8 +18,8 @@
         "time":"TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"CS",
+        "t2":"EC",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -27,8 +27,8 @@
         "time":"TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"CE",
+        "t2":"ME",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -36,8 +36,8 @@
         "time":"TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"ME",
+        "t2":"IT",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -45,8 +45,8 @@
         "time":"TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
+        "t1":"CE",
+        "t2":"IT",
         "score1":0,
         "score2":0,
         "pool":"A",
