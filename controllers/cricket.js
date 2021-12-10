@@ -7,7 +7,7 @@ const cricketActions = {
     table: async function (req,res){
         const table = cricket
         const schedule = bschedule
-        res.send({
+        res.render("football",{
             table:table,
             schedule:schedule
 

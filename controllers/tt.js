@@ -8,7 +8,7 @@ const ttActions = {
     table: async function (req,res){
         const table = tt
         const schedule = bschedule
-        res.send({
+        res.render("football",{
             table:table,
             schedule:schedule
 

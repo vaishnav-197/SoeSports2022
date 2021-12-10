@@ -8,7 +8,7 @@ const throwActions = {
     table: async function (req,res){
         const table = throwball
         const schedule = bschedule
-        res.send({
+        res.render("football",{
             table:table,
             schedule:schedule
 
