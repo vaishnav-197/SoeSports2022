@@ -4,7 +4,6 @@ const bodyParser = require('body-parser')
 const morgan = require('morgan')
 
 
-
 const routes = require('./routes/routes')
 
 const app = express()
@@ -22,7 +21,6 @@ app.use(
      ':method :url :status :response-time ms'
     ))
 app.use('/',routes);
-
 
 
 const PORT = process.env.PORT || 3001;

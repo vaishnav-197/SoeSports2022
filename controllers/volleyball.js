@@ -1,4 +1,5 @@
-const volley = require('../models/table/badminton.json')
+const volley = require('../models/table/volleyball.json')
+const bschedule = require('../models/schedule/volley.json')
 
 
 
@@ -6,11 +7,11 @@ const volley = require('../models/table/badminton.json')
 const volleyActions = {
     table: async function (req,res){
         const table = volley
-        
-
-        console.log(table)
+        const schedule = bschedule
         res.send({
-            table:table
+            table:table,
+            schedule:schedule
+
         })
     }
 }

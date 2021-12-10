@@ -1,0 +1,39 @@
+{
+    "fixture":[{
+        "match":"EC vs cs",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A"
+    }
+]
+}
