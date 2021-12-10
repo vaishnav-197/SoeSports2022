@@ -2,8 +2,6 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
-const connect = require('./db/db')
-require('dotenv').config()
 
 
 
@@ -12,8 +10,6 @@ const routes = require('./routes/routes')
 const app = express()
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
-// db
-connect()
 
 app.set('view engine', 'ejs');
 
