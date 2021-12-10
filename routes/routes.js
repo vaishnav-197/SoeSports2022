@@ -16,18 +16,16 @@ const throwball = require('../controllers/throwball')
 // // admin routes
 // const footballupdate = require('../updateController/updateFootball')
 
-router.get('/' , (req,res) => {
-    res.render('layout')
-})
 
-router.get('/footballTable',football.table)
-router.get('/cricketTable',cricket.table)
-router.get('/volleyTable',volley.table)
-router.get('/badmintonTable',badminton.table)
-router.get('/chessTable',chess.table)
-router.get('/basketballTable',basketball.table)
-router.get('/ttTable',tt.table)
-router.get('/throwTable',throwball.table)
+
+router.get('/',football.table)
+router.get('/cricket',cricket.table)
+router.get('/volley',volley.table)
+router.get('/badminton',badminton.table)
+router.get('/chess',chess.table)
+router.get('/basketball',basketball.table)
+router.get('/tt',tt.table)
+router.get('/throwball',throwball.table)
 
 
 
