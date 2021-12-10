@@ -42,7 +42,7 @@ body{
 }
 .sidebar .logo-details .logo_name{
   font-size: 22px;
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   transition: 0.3s ease;
   transition-delay: 0.1s;
@@ -148,6 +148,7 @@ body{
   pointer-events: auto;
   transition: all 0.4s ease;
 }
+
 .sidebar .nav-links li .sub-menu .link_name{
   display: none;
 }
@@ -234,7 +235,7 @@ body{
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
-  color: #11101d;
+  color: #fff;
   font-size: 35px;
 }
 .home-section .home-content .bx-menu{
@@ -263,7 +264,7 @@ body{
 
  .serv-content .card{
   width: calc(33% - 18px);
-  background: #3D3D59;
+  background: #1d1b31;
   color: #000;
   min-height: 270px;
   text-align: center;
@@ -280,7 +281,7 @@ body{
   transform: scale(1.05);
 }
  .serv-content .card .text{
-  color: rgb(17, 161, 245);
+  color: #fff;
   font-size:26px;
   font-weight: 600;
   margin: 10px 0 7px 0;
@@ -319,4 +320,17 @@ body{
 .event{
 padding-top: 30px;
 padding-left: 65px;
+color: #82D87B;
+}
+
+.match {
+  color: #82D87B;
+}
+.Pool{
+  color: #7C8B7A;
+}
+
+.time{
+  color: #7C8B7A;
+
 }
