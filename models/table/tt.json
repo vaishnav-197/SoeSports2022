@@ -4,42 +4,48 @@
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     },
     {
         "branch":"ec",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     },
     {
         "branch":"it",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"civil",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"mech",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"eese",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     }],
     
     "tableW":[{
@@ -47,42 +53,48 @@
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     },
     {
         "branch":"ec",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     },
     {
         "branch":"it",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"civil",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"mech",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"B"
     },
     {
         "branch":"eese",
         "points":0,
         "matches":0,
         "wins":0,
-        "loss":0
+        "loss":0,
+        "pool":"A"
     }]
     
 

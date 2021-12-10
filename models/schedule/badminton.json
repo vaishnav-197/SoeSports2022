@@ -1,6 +1,6 @@
 {
     "fixtureM":[{
-        "match":"IT vs EESE",
+        "match":"CS vs EESE",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -14,28 +14,28 @@
         "matchNo":2
     },
     {
-        "match":"TBD",
+        "match":"EC vs IT",
         "score1":0,
         "score2":0,
         "pool":"A",
         "matchNo":3
     },
     {
-        "match":"TBD",
+        "match":"EC vs IT",
         "score1":0,
         "score2":0,
         "pool":"A",
         "matchNo":4
     },
     {
-        "match":"TBD",
+        "match":"EC vs IT",
         "score1":0,
         "score2":0,
         "pool":"A",
         "matchNo":5
     },
     {
-        "match":"TBD",
+        "match":"EC vs IT",
         "score1":0,
         "score2":0,
         "pool":"A",
@@ -43,42 +43,42 @@
     }
 ],
 "fixtureW":[{
-    "match":"TBD",
+    "match":"EESE vs CSE",
     "score1":0,
     "score2":0,
     "pool":"A",
     "matchNo":1
 },
 {
-    "match":"TBD",
+    "match":"CE vs ME",
     "score1":0,
     "score2":0,
-    "pool":"A",
+    "pool":"B",
     "matchNo":2
 },
 {
-    "match":"TBD",
+    "match":"CS vs IT",
     "score1":0,
     "score2":0,
     "pool":"A",
     "matchNo":3
 },
 {
-    "match":"TBD",
+    "match":"ME vs EC",
     "score1":0,
     "score2":0,
     "pool":"A",
     "matchNo":4
 },
 {
-    "match":"TBD",
+    "match":"EESE vs IT",
     "score1":0,
     "score2":0,
-    "pool":"A",
+    "pool":"B",
     "matchNo":5
 },
 {
-    "match":"TBD",
+    "match":"EC vs CE",
     "score1":0,
     "score2":0,
     "pool":"A",

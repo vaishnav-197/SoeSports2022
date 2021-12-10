@@ -1,16 +1,16 @@
 const football = require('../models/table/football.json')
-
+const bschedule = require('../models/schedule/football.json')
 
 
 
 const footballActions = {
     table: async function (req,res){
         const table = football
-        
-
-        console.log(table)
+        const schedule = bschedule
         res.send({
-            table:table
+            table:table,
+            schedule:schedule
+
         })
     }
 }

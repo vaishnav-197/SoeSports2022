@@ -1,16 +1,16 @@
-const chess = require('../models/table/badminton.json')
-
+const chess = require('../models/table/chess.json')
+const bschedule = require('../models/schedule/chess.json')
 
 
 
 const chessActions = {
     table: async function (req,res){
         const table = chess
-        
-
-        console.log(table)
+        const schedule = bschedule
         res.send({
-            table:table
+            table:table,
+            schedule:schedule
+
         })
     }
 }

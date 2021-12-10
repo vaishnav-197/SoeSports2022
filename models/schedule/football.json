@@ -1,0 +1,65 @@
+{
+    "fixture":[{
+        "match":"EC vs cs",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":1
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":2
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":3
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":4
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":5
+    },
+    {
+        "match":"EC vs IT",
+        "score1":0,
+        "score2":0,
+        "pool":"A",
+        "matchNo":6
+    }
+    ],
+    "semi":[
+        {   "id":"semi1",
+            "match":"EC vs IT",
+            "score1":0,
+            "score2":0,
+            "matchNo":7
+        },
+        {   "id":"semi2",
+            "match":"EC vs IT",
+            "score1":0,
+            "score2":0,
+            "matchNo":8
+        },
+        {   "id":"final",
+            "match":"EC vs IT",
+            "score1":0,
+            "score2":0,
+            "matchNo":9
+        }
+    ]
+}

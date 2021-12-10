@@ -5,7 +5,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"A"
     },
     {
         "branch":"ec",
@@ -13,7 +14,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"B"
     },
     {
         "branch":"it",
@@ -21,7 +23,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"B"
     },
     {
         "branch":"civil",
@@ -29,7 +32,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"A"
     },
     {
         "branch":"mech",
@@ -37,7 +41,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"A"
     },
     {
         "branch":"eese",
@@ -45,7 +50,8 @@
         "matches":0,
         "wins":0,
         "loss":0,
-        "rr":0
+        "rr":0,
+        "pool":"B"
     }]
     
 

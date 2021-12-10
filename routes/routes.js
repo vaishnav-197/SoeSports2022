@@ -12,6 +12,10 @@ const throwball = require('../controllers/throwball')
 
 
 
+
+// // admin routes
+// const footballupdate = require('../updateController/updateFootball')
+
 router.get('/' , (req,res) => {
     res.render('layout')
 })
@@ -25,4 +29,8 @@ router.get('/basketballTable',basketball.table)
 router.get('/ttTable',tt.table)
 router.get('/throwTable',throwball.table)
 
+
+
+// //! admin
+// router.post('/admin/football', footballupdate.updateScore);
 module.exports = router
