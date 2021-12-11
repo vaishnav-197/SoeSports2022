@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-
-    <link rel="stylesheet" href="style.css" />
-    <!-- Boxiocns CDN Link -->
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+  <%- include('./templates/head'); -%>
   <body id="body-pd">
     <!-- SIDEBAR -->
-    <%- include('./navbar'); -%>
+    <%- include('./templates/navbar'); -%>
 
     <section class="home-section">
       <div class="home-content">
@@ -71,40 +54,6 @@
 
     <!-- SIDEBAR ENDS HERE -->
 
-    <script>
-      const showNavbar = (toggleId, navId, bodyId, headerId) => {
-        const toggle = document.getElementById(toggleId),
-          nav = document.getElementById(navId),
-          bodypd = document.getElementById(bodyId),
-          headerpd = document.getElementById(headerId);
-
-        // Validate that all variables exist
-        if (toggle && nav && bodypd && headerpd) {
-          toggle.addEventListener("click", () => {
-            // show navbar
-            nav.classList.toggle("show");
-            // change icon
-            toggle.classList.toggle("bx-x");
-            // add padding to body
-            bodypd.classList.toggle("body-pd");
-            // add padding to header
-            headerpd.classList.toggle("body-pd");
-          });
-        }
-      };
-
-      showNavbar("header-toggle", "nav-bar", "body-pd", "header");
-
-      /*===== LINK ACTIVE  =====*/
-      const linkColor = document.querySelectorAll(".nav__link");
-
-      function colorLink() {
-        if (linkColor) {
-          linkColor.forEach((l) => l.classList.remove("active"));
-          this.classList.add("active");
-        }
-      }
-      linkColor.forEach((l) => l.addEventListener("click", colorLink));
-    </script>
+    <%- include('./templates/script'); -%>
   </body>
 </html>
