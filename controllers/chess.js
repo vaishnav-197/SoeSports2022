@@ -1,18 +1,15 @@
-const chess = require('../models/table/chess.json')
-const bschedule = require('../models/schedule/chess.json')
-
-
+const chess = require("../models/table/chess.json");
+const bschedule = require("../models/schedule/chess.json");
 
 const chessActions = {
-    table: async function (req,res){
-        const table = chess
-        const schedule = bschedule
-        res.render("football",{
-            table:table,
-            schedule:schedule
+  table: async function (req, res) {
+    const table = chess;
+    const schedule = bschedule;
+    res.render("chess", {
+      table: table,
+      schedule: schedule,
+    });
+  },
+};
 
-        })
-    }
-}
-
-module.exports = chessActions
+module.exports = chessActions;

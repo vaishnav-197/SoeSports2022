@@ -1,19 +1,15 @@
-const throwball = require('../models/table/throwball.json')
-const bschedule = require('../models/schedule/throwball.json')
-
-
-
+const throwball = require("../models/table/throwball.json");
+const bschedule = require("../models/schedule/throwball.json");
 
 const throwActions = {
-    table: async function (req,res){
-        const table = throwball
-        const schedule = bschedule
-        res.render("football",{
-            table:table,
-            schedule:schedule
+  table: async function (req, res) {
+    const table = throwball;
+    const schedule = bschedule;
+    res.render("throwball", {
+      table: table,
+      schedule: schedule,
+    });
+  },
+};
 
-        })
-    }
-}
-
-module.exports = throwActions
+module.exports = throwActions;
