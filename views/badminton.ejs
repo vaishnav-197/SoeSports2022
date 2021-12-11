@@ -21,71 +21,7 @@
   </head>
   <body id="body-pd">
     <!-- SIDEBAR -->
-    <header class="header" id="header">
-      <div class="header__toggle">
-        <i class="bx bx-menu" id="header-toggle"></i>
-      </div>
-
-      <div class="header__img">
-        <img src="assets/img/perfil.jpg" alt="" />
-      </div>
-    </header>
-
-    <div class="l-navbar" id="nav-bar">
-      <nav class="nav">
-        <div>
-          <a href="#" class="nav__logo">
-            <i class="bx bx-layer nav__logo-icon"></i>
-            <span class="nav__logo-name">SOE Sports 2021</span>
-          </a>
-
-          <div class="nav__list">
-            <a
-              href="https://soesports.herokuapp.com/volleyball"
-              class="nav__link"
-            >
-              <i class="fas fa-volleyball-ball"></i>
-              <span class="nav__name">Volleyball</span>
-            </a>
-
-            <a href="/cricket" class="nav__link">
-              <i class="fas fa-quidditch"></i>
-              <span class="nav__name">Cricket</span>
-            </a>
-
-            <a href="/badminton" class="nav__link active">
-              <i class="fas fa-running"></i>
-              <span class="nav__name">Badminton</span>
-            </a>
-
-            <a href="/basketball" class="nav__link">
-              <i class="fas fa-basketball-ball"></i>
-              <span class="nav__name">BasketBall</span>
-            </a>
-
-            <a href="/" class="nav__link">
-              <i class="fas fa-futbol"></i>
-              <span class="nav__name">Football</span>
-            </a>
-
-            <a href="/throwball" class="nav__link">
-              <i class="fas fa-bowling-ball"></i>
-              <span class="nav__name">Throwball</span>
-            </a>
-
-            <a href="/chess" class="nav__link">
-              <i class="fas fa-chess-queen"></i>
-              <span class="nav__name">Chess</span>
-            </a>
-
-            <a href="/tabletennis" class="nav__link">
-              <i class="fas fa-table-tennis"></i>
-              <span class="nav__name">Table Tennis</span>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <%- include('./navbar'); -%>
 
     <section class="home-section">
       <div class="home-content">
