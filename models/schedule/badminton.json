@@ -1,100 +1,102 @@
 {
-    "fixtureM":[{
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":1,
-        "time":"TBD"
+  "fixtureM": [
+    {
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 1,
+      "time": "TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":3,
-        "time":"TBD"
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 3,
+      "time": "TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":3,
-        "time":"TBD"
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 3,
+      "time": "TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":4,
-        "time":"TBD"
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 4,
+      "time": "TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":5,
-        "time":"TBD"
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 5,
+      "time": "TBD"
     },
     {
-        "t1":"TBD",
-        "t2":"TBD",
-        "score1":0,
-        "score2":0,
-        "pool":"A",
-        "matchNo":6,
-        "time":"TBD"
+      "t1": "TBD",
+      "t2": "TBD",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 6,
+      "time": "TBD"
     }
-    ],
-"fixtureW":[{
-    "match":"EESE vs CSE",
-    "score1":0,
-    "score2":0,
-    "pool":"A",
-    "matchNo":1
-},
-{
-    "match":"CE vs ME",
-    "score1":0,
-    "score2":0,
-    "pool":"B",
-    "matchNo":2
-},
-{
-    "match":"CS vs IT",
-    "score1":0,
-    "score2":0,
-    "pool":"A",
-    "matchNo":3
-},
-{
-    "match":"ME vs EC",
-    "score1":0,
-    "score2":0,
-    "pool":"A",
-    "matchNo":4
-},
-{
-    "match":"EESE vs IT",
-    "score1":0,
-    "score2":0,
-    "pool":"B",
-    "matchNo":5
-},
-{
-    "match":"EC vs CE",
-    "score1":0,
-    "score2":0,
-    "pool":"A",
-    "matchNo":6
-}
-]
+  ],
+  "fixtureW": [
+    {
+      "match": "EESE vs CSE",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 1
+    },
+    {
+      "match": "CE vs ME",
+      "score1": 0,
+      "score2": 0,
+      "pool": "B",
+      "matchNo": 2
+    },
+    {
+      "match": "CS vs IT",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 3
+    },
+    {
+      "match": "ME vs EC",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 4
+    },
+    {
+      "match": "EESE vs IT",
+      "score1": 0,
+      "score2": 0,
+      "pool": "B",
+      "matchNo": 5
+    },
+    {
+      "match": "EC vs CE",
+      "score1": 0,
+      "score2": 0,
+      "pool": "A",
+      "matchNo": 6
+    }
+  ]
 }
