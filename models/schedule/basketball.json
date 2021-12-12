@@ -10,29 +10,29 @@
       "matchNo": 1
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
+      "t1": "ME",
+      "t2": "CE",
       "match": "ME vs CE",
-      "score1": 0,
-      "score2": 0,
+      "score1": 49,
+      "score2": 21,
       "pool": "B",
       "matchNo": 2
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
-      "score1": 0,
-      "score2": 0,
+      "t1": "CS",
+      "t2": "CE",
+      "match": "CS vs CE",
+      "score1": 16,
+      "score2": 25,
       "pool": "A",
       "matchNo": 3
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
-      "score1": 0,
-      "score2": 0,
+      "t1": "EC",
+      "t2": "IT",
+      "match": "EC vs IT",
+      "score1": 40,
+      "score2": 9,
       "pool": "A",
       "matchNo": 4
     },
