@@ -10,37 +10,39 @@
       "overs2": 7.3,
       "pool": "B",
       "matchNo": 1,
-      "time": "7:00-9:00 am"
+      "time": "IT won by 8 wickets"
     },
     {
       "t1": "CS",
       "t2": "ME",
       "match": "CS vs ME",
-      "score1": 0,
-      "score2": 0,
+      "score1": "44 / 8",
+      "score2": "45 / 4",
       "pool": "A",
       "matchNo": 2,
-      "time": "3:00 - 5:15 PM"
+      "time": "ME won by 6 wickets"
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
-      "score1": 0,
-      "score2": 0,
-      "pool": "A",
+      "t1": "EC",
+      "t2": "EESE",
+      "match": "EC vs EESE",
+      "score1": "87 / 1",
+      "overs1": 8,
+      "score2": "86 / 3",
+      "overs2": 8,
+      "pool": "B",
       "matchNo": 3,
-      "time": "TBD"
+      "time": "EC Won by 1 run"
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
+      "t1": "CS",
+      "t2": "CE",
+      "match": "CS vs CE",
       "score1": 0,
       "score2": 0,
       "pool": "A",
       "matchNo": 4,
-      "time": "TBD"
+      "time": "3:00 - 5:00 PM"
     },
     {
       "t1": "TBD",
