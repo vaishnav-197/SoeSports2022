@@ -37,20 +37,20 @@
       "matchNo": 4
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
-      "score1": 0,
-      "score2": 0,
+      "t1": "EC",
+      "t2": "EESE",
+      "match": "EESE vs EC",
+      "score1": 26,
+      "score2": 4,
       "pool": "A",
       "matchNo": 5
     },
     {
-      "t1": "TBD",
-      "t2": "TBD",
-      "match": "TBD",
-      "score1": 0,
-      "score2": 0,
+      "t1": "ME",
+      "t2": "CS",
+      "match": "ME vs CS",
+      "score1": 51,
+      "score2": 9,
       "pool": "A",
       "matchNo": 6
     }
